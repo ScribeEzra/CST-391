@@ -38,7 +38,11 @@
 <!-- Part 2 -->
 ## Part 2: Creating a Music Application – The Front End
 ### Screenshots
+![Error]()
+> I was unable to get past an error on the musicapp project > as well and finally decided to just cut my losses and move > on to the next activity and milestone
 
 ### Research
+
+> I don't have a complete code to comment.
 
 ---

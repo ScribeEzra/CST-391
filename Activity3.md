@@ -10,7 +10,7 @@
 <!-- Part 1 -->
 ## Part 1: Basic Angular Components, Events, Routes, and Data Binding
 ### Screenshots
-![Large Screen]()
+![Large Screen](https://github.com/ScribeEzra/CST-391/blob/main/Media/Activity%203/01.png)
 > Large Responsive Screen
 
 ![Small Screen]()
@@ -36,7 +36,7 @@
 ---
 
 <!-- Part 2 -->
-## Part 2: Creating a Music Application – The Front End
+## Part 2: Creating a Music Application â€“ The Front End
 ### Screenshots
 
 ### Research

@@ -13,7 +13,7 @@
 ![Large Screen](https://github.com/ScribeEzra/CST-391/blob/main/Media/Activity%203/01.png)
 > Large Responsive Screen
 
-![Small Screen]()
+![Small Screen](https://github.com/ScribeEzra/CST-391/blob/main/Media/Activity%203/02.png)
 > Small Responsive Screen
 
 ![Error]()

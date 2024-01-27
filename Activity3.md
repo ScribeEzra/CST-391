@@ -16,7 +16,7 @@
 ![Small Screen](https://github.com/ScribeEzra/CST-391/blob/main/Media/Activity%203/02.png)
 > Small Responsive Screen
 
-![Error]()
+![Error](https://github.com/ScribeEzra/CST-391/blob/main/Activity%203/03(Error).png)
 > An Error occurred that kept me from completing the project. 
 
 > I kept trying to fix it but couldn't figure out a way around this error.

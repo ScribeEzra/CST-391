@@ -11,7 +11,7 @@
 ## Part 1: Finish the Music Application – Integration with Back End
 ### Screenshots
 
-![Home Page]()
+![Home Page](https://github.com/ScribeEzra/CST-391/blob/main/Media/Activity%204/01.png)
 > What The Home Page Is Meant To Look Like
 
 ![Main Page Error]()

@@ -20,7 +20,7 @@
 ![Artists Page Error](https://github.com/ScribeEzra/CST-391/blob/main/Media/Activity%204/03.png)
 > Artists Page Error
 
-![Albums Page Error]()
+![Albums Page Error](https://github.com/ScribeEzra/CST-391/blob/main/Media/Activity%204/04.png)
 > Albums Page Error
 
 > I kept encountering an error when trying to navigate the site.

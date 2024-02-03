@@ -14,7 +14,7 @@
 ![Home Page](https://github.com/ScribeEzra/CST-391/blob/main/Media/Activity%204/01.png)
 > What The Home Page Is Meant To Look Like
 
-![Main Page Error]()
+![Main Page Error](https://github.com/ScribeEzra/CST-391/blob/main/Media/Activity%204/02.png)
 > Main Page Error
 
 ![Artists Page Error]()

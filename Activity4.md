@@ -17,7 +17,7 @@
 ![Main Page Error](https://github.com/ScribeEzra/CST-391/blob/main/Media/Activity%204/02.png)
 > Main Page Error
 
-![Artists Page Error]()
+![Artists Page Error](https://github.com/ScribeEzra/CST-391/blob/main/Media/Activity%204/03.png)
 > Artists Page Error
 
 ![Albums Page Error]()

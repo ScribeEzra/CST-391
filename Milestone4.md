@@ -38,7 +38,7 @@
 > The creature class will have variables such as a "description" string, a "health" int, an "attack" int, a "defense" int, and a "unique" boolean.
 > An example of a biblical creature in the creature class would be:
 >
-> -**Id** 1
+> - **Id** 1
 > - **Name** Leviathan
 > - **Description:** A massive sea serpent with a seemingly unending amount of teeth, believed by some to have possibly been the possessed serpent in the Garden of Eden
 > - **Health:** 999999

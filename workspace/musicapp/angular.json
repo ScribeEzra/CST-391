@@ -5,17 +5,7 @@
   "projects": {
     "musicapp": {
       "projectType": "application",
-      "schematics": {
-        "@schematics/angular:component": {
-          "standalone": false
-        },
-        "@schematics/angular:directive": {
-          "standalone": false
-        },
-        "@schematics/angular:pipe": {
-          "standalone": false
-        }
-      },
+      "schematics": {},
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
@@ -108,6 +98,6 @@
     }
   },
   "cli": {
-    "analytics": "ff61ba04-1ea0-41c7-90c3-e545e382745c"
+    "analytics": "9c87b89b-bec6-44ab-a870-b7b3effd6429"
   }
 }

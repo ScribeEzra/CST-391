@@ -1,0 +1,11 @@
+<div class="list-group" *ngIf="selectedCreature == null">
+    <button class="list-group-item" active
+    *ngFor="let creature of creatures"
+    (click)="onSelectCreature(creature)">
+{{creature.creature}}
+</button>
+</div>
+
+<div *ngIf="selectedCreature">
+<app-list-items [creature]="selectedCreature"></app-list-items>
+</div>

@@ -8,7 +8,7 @@ describe('DeleteAlbumComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [DeleteAlbumComponent]
+      imports: [DeleteAlbumComponent]
     })
     .compileComponents();
     

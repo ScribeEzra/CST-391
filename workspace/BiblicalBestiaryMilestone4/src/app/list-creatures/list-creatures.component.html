@@ -1,0 +1,17 @@
+<div class="list-group" *ngIf="selectedAlbum == null">
+    <button class="list-group-item" active
+      *ngFor="let creature of creatures"
+      (click)="onSelectCreatures(creature)">
+      <table align="center">
+        <tr>
+          <td>Name: {{ creature.Name }}</td>
+          <td>Description: {{ creature.Description }}</td>
+          <td>HP: {{ creature.Hp }}</td>
+          <td>ATK: {{ creature.Atk }}</td>
+          <td>DEF: {{ creature.Def }}</td>
+        </tr>
+      </table>
+    </button>
+  </div>
+  
+  <app-display-album *ngIf="selectedCreature" [creature]="selectedCreature"></app-display-album>

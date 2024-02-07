@@ -8,7 +8,7 @@ describe('EditAlbumComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [EditAlbumComponent]
+      imports: [EditAlbumComponent]
     })
     .compileComponents();
     

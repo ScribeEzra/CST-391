@@ -1,0 +1,37 @@
+<div class="form-container" *ngIf="!wasSubmitted">
+	<form (ngSubmit)="onSubmit()" #createForm="ngForm">
+		<div class="form-group">
+			<label for="artist">Name</label> <input id="name" type="text"
+				class="form-control" aria-describedby="helpName"
+				placeholder="What is this creature called?" required
+				[(ngModel)]="album.name" name="name">
+		</div>
+		<div class="form-group">
+			<label for="description">Description</label>
+			<textarea id="description" rows="3" class="form-control"
+				aria-describedby="helpDescription"
+				placeholder="How is this creature described?" required
+				[(ngModel)]="creature.Description" name="description"></textarea>
+		</div>
+		<div class="form-group">
+			<label for="hp">HP</label> <input id="hp" type="text"
+				class="form-control" aria-describedby="helpHp"
+				placeholder="What is this creature's HP?" required
+				[(ngModel)]="creature.hp" name="hp">
+		</div>
+        <div class="form-group">
+			<label for="atk">ATK</label> <input id="atk" type="text"
+				class="form-control" aria-describedby="helpAtk"
+				placeholder="What is this creature's ATK?" required
+				[(ngModel)]="creature.atk" name="atk">
+		</div>
+        <div class="form-group">
+			<label for="def">DEF</label> <input id="def" type="text"
+				class="form-control" aria-describedby="helpDef"
+				placeholder="What is this creature's DEF?" required
+				[(ngModel)]="creature.def" name="hp">
+		</div>
+		<button type="submit" class=btn btn-primary>Submit</button>
+	</form>
+</div>
+<div *ngIf="wasSubmitted">Your creature was added to the bestiary.</div>

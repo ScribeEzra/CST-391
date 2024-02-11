@@ -1,0 +1,55 @@
+import React, { useState } from 'react';
+import Card from './card';
+import './app.css';
+
+const App = () => {
+  const [albumList, setAlbumList] = useState([
+    {
+      artistId: 0,
+      artist: 'My Chemical Romance',
+      title: 'Three Cheers For Sweet Revenge',
+      description:
+        "Three Cheers for Sweet Revenge (often shortened to Three Cheers or Revenge)[1] is the second studio album by American rock band My Chemical Romance, released on June 8, 2004 by Reprise Records.[2][3] With this album, the band produced a cleaner sound than that of their 2002 debut I Brought You My Bullets, You Brought Me Your Love.[4] It was the band's first release to feature rhythm guitarist Frank Iero on all tracks, as well as the final release to feature drummer Matt Pelissier, who would later be replaced by Bob Bryar.[5]",
+      year: 2004,
+      image:
+        "https://upload.wikimedia.org/wikipedia/en/1/14/Three_cheers_clean.jpg",
+    },
+    {
+      artistId: 0,
+      artist: 'My Chemical Romance',
+      title: 'The Black Parade',
+      description:
+        "The Black Parade is the third studio album by American rock band My Chemical Romance. Released in Europe on October 23, 2006, and the United States on October 24, 2006,[1] through Reprise Records, it was produced by the band with Rob Cavallo, known for having produced multiple albums for the Goo Goo Dolls and Green Day. It is a rock opera and concept album centered on a dying man with cancer known as The Patient. The album tells the story of his apparent death, experiences in the afterlife, and subsequent reflections on his life. It is the band's only studio album to feature Bob Bryar on drums before his departure in 2010.",
+      year: 2006,
+      image:
+        "https://upload.wikimedia.org/wikipedia/en/e/ea/Blackparadecover.jpg",
+    },
+    {
+      artistId: 0,
+      artist: 'My Chemical Romance',
+      title: 'Danger Days: The True Lives Of The Fabulous Killjoys',
+      description:
+        "Danger Days: The True Lives of the Fabulous Killjoys (often referred to as simply Danger Days) is the fourth studio album by the American rock band My Chemical Romance, released on November 22, 2010 by Reprise Records. Its songs are associated with the band's well known sound of alternative rock, pop-punk, and punk rock, along with an introduction of new musical elements, including power pop, pop rock, and electronic rock. The primary musical inspiration for the album came from contemporary rock, psychedelic rock, and protopunk bands of the sixties and seventies. It was the penultimate album released by the band before their six-year disbandment from 2013 to 2019",
+      year: 2009,
+      image:
+        "https://upload.wikimedia.org/wikipedia/en/5/51/Danger_Days-album-2010.jpg",
+    },
+  ]);
+
+  const renderedList = () => {
+    return albumList.map((album) => {
+      return (
+        <Card
+          albumTitle={album.title}
+          albumDescription={album.description}
+          buttonText='OK'
+          imgURL={album.image}
+        />
+      );
+    });
+  };
+
+  return <div className='container'>{renderedList()}</div>;
+};
+
+export default App;

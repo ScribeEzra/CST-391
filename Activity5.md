@@ -13,7 +13,7 @@
 
 ---
 
-![Test Webpage]()
+![Test Webpage](https://github.com/ScribeEzra/CST-391/blob/main/Media/Activity%205/01.png)
 
 > Test Webpage
 

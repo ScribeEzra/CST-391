@@ -15,19 +15,19 @@
 
 > The Test Page For A New App
 
-![Blog Post Layout]()
+![Blog Post Layout](https://github.com/ScribeEzra/CST-391/blob/main/Media/Activity%207/02.png)
 
 > The Blog Post Layout Tested On The App
 
-![Multiple Post Layout]()
+![Multiple Post Layout](https://github.com/ScribeEzra/CST-391/blob/main/Media/Activity%207/03.png)
 
 > Testing The Layout Of Multiple Blog Posts
 
-![Layout With Delete Button]()
+![Layout With Delete Button](https://github.com/ScribeEzra/CST-391/blob/main/Media/Activity%207/04.png)
 
 > Delete Button Added And Post #1 Deleted Successfully From postList
 
-![Layout With AddPost]()
+![Layout With AddPost](https://github.com/ScribeEzra/CST-391/blob/main/Media/Activity%207/05.png)
 
 > Add Post Added and Post #4 Added Successfully To postList
 
@@ -36,15 +36,15 @@
 ## Part 6: Create New Album
 ### Screenshots
 
-![Create Album Page]()
+![Create Album Page](https://github.com/ScribeEzra/CST-391/blob/main/Media/Activity%207/06.png)
 
 > The Beginnings Of The Create Album Form Page
 
-![Formatted Form Page]()
+![Formatted Form Page](https://github.com/ScribeEzra/CST-391/blob/main/Media/Activity%207/07.png)
 
 > The Create Album Page Formatted To Accept Input To Create A New Album (onSubmit Does Not Work Yet)
 
-![App Successfully Reading Data]()
+![App Successfully Reading Data](https://github.com/ScribeEzra/CST-391/blob/main/Media/Activity%207/08.png)
 
 > I Finally Got The App To Read The Data- It Was A Typo That I Finally Noticed. I Had Typed baseUrl Instead Of baseURL.
 
@@ -58,11 +58,11 @@
 
 ### Screenshots
 
-![EditAlbum Form]()
+![EditAlbum Form](https://github.com/ScribeEzra/CST-391/blob/main/Media/Activity%207/09.png)
 
 > EditAlbum Form Added To App
 
-![Album Details]()
+![Album Details](https://github.com/ScribeEzra/CST-391/blob/main/Media/Activity%207/10.png)
 
 > Album Details Page Added To App
 

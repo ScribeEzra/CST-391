@@ -2,7 +2,7 @@ import React from 'react';
 const OneAlbum = (props) => {
     return(
         <div className='container'>
-            <h2>Album Detaile for {props.album.title}</h2>
+            <h2>Album Details for {props.album.title}</h2>
             <div className='row'>
                 <div className='col col-sm-3'>
                     <div className='card'>

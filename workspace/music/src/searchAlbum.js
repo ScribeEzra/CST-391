@@ -7,7 +7,7 @@ const SearchAlbum = (props) => {
     return (
         <div className='container'>
             <SearchForm onSubmit={props.updateSearchResults}/>
-            <AlbumList albumList={props.albumList} onClick={props.updateSIngleAlbum}/>
+            <AlbumList albumList={props.albumList} onClick={props.updateSingleAlbum}/>
         </div>
     )
 }

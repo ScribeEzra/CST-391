@@ -74,4 +74,4 @@
 
 ### Source Code
 
-placeholder
+[music](https://github.com/ScribeEzra/CST-391/tree/main/workspace/music) [MusicAPI](https://github.com/ScribeEzra/CST-391/tree/main/workspace/music)

@@ -11,7 +11,7 @@
 ## Mini App #3 – Dynamic Components Demo
 ### Screenshots
 
-![New App]()
+![New App](https://github.com/ScribeEzra/CST-391/blob/main/Media/Activity%207/01.png)
 
 > The Test Page For A New App
 

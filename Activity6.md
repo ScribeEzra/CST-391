@@ -11,23 +11,23 @@
 ## Part 3: External Data Source
 ### Screenshots
 
-![SearchForm Placeholder]()
+![SearchForm Placeholder](https://github.com/ScribeEzra/CST-391/blob/main/Media/Activity%206/01.png)
 
 > SearchForm Placeholder Shown In App
 
-![SearchForm]()
+![SearchForm](https://github.com/ScribeEzra/CST-391/blob/main/Media/Activity%206/02.png)
 
 > SearchForm Shown In App
 
-![Console Messages]()
+![Console Messages](https://github.com/ScribeEzra/CST-391/blob/main/Media/Activity%206/03.png)
 
 > Messages Sent to Console Via SearchForm
 
-![Search Results]()
+![Search Results](https://github.com/ScribeEzra/CST-391/blob/main/Media/Activity%206/04.png)
 
 > Search Results Successfully Showing Only the "Danger Days" Album
 
-![Error]()
+![Error](https://github.com/ScribeEzra/CST-391/blob/main/Media/Activity%206/05.png)
 
 > I encountered an error at the end of this activity when trying to fetch data from the MySQL database. I'm not sure what caused it.
 
@@ -41,23 +41,23 @@
 
 ### Screenshots
 
-![New App]()
+![New App](https://github.com/ScribeEzra/CST-391/blob/main/Media/Activity%206/06.png)
 
 > The Test Screen Of The New Router App
 
-![About Page]()
+![About Page](https://github.com/ScribeEzra/CST-391/blob/main/Media/Activity%206/07.png)
 
 > About Page of the Router App
 
-![Contact Us Page]()
+![Contact Us Page](https://github.com/ScribeEzra/CST-391/blob/main/Media/Activity%206/08.png)
 
 > Contact Us Page of the Router App
 
-![User Page]()
+![User Page](https://github.com/ScribeEzra/CST-391/blob/main/Media/Activity%206/09.png)
 
 > User Page of the Router App
 
-![Login Page]()
+![Login Page](https://github.com/ScribeEzra/CST-391/blob/main/Media/Activity%206/10.png)
 
 > Login Page of the Router App
 
@@ -71,15 +71,15 @@
 
 ### Screenshots
 
-![Updated Main Page]()
+![Updated Main Page](https://github.com/ScribeEzra/CST-391/blob/main/Media/Activity%206/11.png)
 
 > The Updated Main Page Of The Music App
 
-![New Album Page]()
+![New Album Page](https://github.com/ScribeEzra/CST-391/blob/main/Media/Activity%206/12.png)
 
 > The New Album Page Of The Music App
 
-![Search Results]()
+![Search Results](https://github.com/ScribeEzra/CST-391/blob/main/Media/Activity%206/13.png)
 
 > The search results of the music app still doesn't display any albums. My guess is there is an issue with the connection to the database.
 
@@ -92,6 +92,6 @@
 
 ### Source Code
 
-placeholder
-
+[Music](https://github.com/ScribeEzra/CST-391/tree/main/workspace/music)
+[Router](https://github.com/ScribeEzra/CST-391/tree/main/workspace/router)
 ---

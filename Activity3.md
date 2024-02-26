@@ -16,7 +16,7 @@
 ![Small Screen](https://github.com/ScribeEzra/CST-391/blob/main/Media/Activity%203/02.png)
 > Small Responsive Screen
 
-![Error](https://github.com/ScribeEzra/CST-391/blob/main/Media/Activity%203/03.png)
+![Error](https://github.com/ScribeEzra/CST-391/blob/main/Media/Activity%203/03(Error).png)
 > An Error occurred that kept me from completing the project. 
 
 > I kept trying to fix it but couldn't figure out a way around this error.
@@ -38,7 +38,7 @@
 <!-- Part 2 -->
 ## Part 2: Creating a Music Application � The Front End
 ### Screenshots
-![Error](https://github.com/ScribeEzra/CST-391/blob/main/Media/Activity%203/04.png)
+![Error](https://github.com/ScribeEzra/CST-391/blob/main/Media/Activity%203/04(Error).png)
 > I was unable to get past an error on the musicapp project > as well and finally decided to just cut my losses and move > on to the next activity and milestone
 
 ### Research

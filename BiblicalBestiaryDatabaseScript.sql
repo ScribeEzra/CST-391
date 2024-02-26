@@ -17,14 +17,13 @@ DROP TABLE IF EXISTS `creatures`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `creatures` (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `id` int(11) UNIQUE NOT NULL AUTO_INCREMENT,
   `name` varchar(100) NOT NULL,
-  `description` varchar(100) NOT NULL,
-  `health` int(11) NOT NULL,
-  `attack` int(11) NOT NULL,
-  `defence` int(11) NOT NULL,
-  `unique` VARCHAR(10),
-  is_checked BIT,
+  `description` varchar(500) NOT NULL,
+  `hp` int(11) NOT NULL,
+  `atk` int(11) NOT NULL,
+  `def` int(11) NOT NULL,
+  `unique` BOOLEAN,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=14 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
@@ -34,16 +33,16 @@ CREATE TABLE `creatures` (
 LOCK TABLES `creatures` WRITE;
 /*!40000 ALTER TABLE `creatures` DISABLE KEYS */;
 INSERT INTO `creatures` VALUES 
-	(1,'Leviathan', 'A massive sea serpent with a seemingly unending amount of teeth, believed by some to have possibly been the possessed serpent in the Garden of Eden',999999, 280, 500, 1),
-	(2,'Behemoth', 'A large land-dewlling creature that, despite its impressive jaw strength, eats grass.',5000, 100, 100, 0),
-    (3,'Serpant', 'A reptilian creature often associated with the devil',666, 50, 10, 0),
-    (4,'Archangel Michael', 'The most well-known angel who fought Jacob on a mountain',100000, 300, 250, 1),
-    (5,'Sucubus', 'A demon who\'s specialty is to seduce human men.',1000, 75, 25, 0),
-    (6,'Incubus', 'A demon who\'s specialty is to seduce human women.',1000, 75, 25, 0),
-    (7,'Seraphim', 'An angel known to have six wings, two that cover the face, two that cover the feet, and two used to fly',900, 50, 50, 0),
-    (8,'Cherubim', 'An angel known to have multiple animal headcreaturess as well as one human head',900, 50, 50, 0),
-    (9,'Nephalim', 'A giant creature born from a union of angel and human',10000, 100, 100, 0),
-    (10,'Watcher', 'One of a handfull of fallen angels responsible for the creation of the Nephilim',10000, 150, 150, 0)
+	(1,'Leviathan', 'A massive sea serpent with a seemingly unending amount of teeth, believed by some to have possibly been the possessed serpent in the Garden of Eden',999999, 280, 500, true),
+	(2,'Behemoth', 'A large land-dewlling creature that, despite its impressive jaw strength, eats grass.',5000, 100, 100, false),
+    (3,'Serpant', 'A reptilian creature often associated with the devil',666, 50, 10, false),
+    (4,'Archangel Michael', 'The most well-known angel who fought Jacob on a mountain',100000, 300, 250, true),
+    (5,'Sucubus', 'A demon who\'s specialty is to seduce human men.',1000, 75, 25, false),
+    (6,'Incubus', 'A demon who\'s specialty is to seduce human women.',1000, 75, 25, false),
+    (7,'Seraphim', 'An angel known to have six wings, two that cover the face, two that cover the feet, and two used to fly',900, 50, 50, false),
+    (8,'Cherubim', 'An angel known to have multiple animal heads as well as one human head',900, 50, 50, false),
+    (9,'Nephalim', 'A giant creature born from a union of angel and human',10000, 100, 100, false),
+    (10,'Watcher', 'One of a handful of fallen angels responsible for the creation of the Nephilim',10000, 150, 150, false)
     ;
 /*!40000 ALTER TABLE `creatures` ENABLE KEYS */;
 UNLOCK TABLES;

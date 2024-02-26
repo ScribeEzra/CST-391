@@ -18,7 +18,7 @@ const AlbumList = (props) => {
                 albumId={album.id}
                 albumTitle={album.title}
                 albumDescription={album.description}
-                buttonText = "OK"
+                buttonText = "View"
                 imgUrl={album.image}
                 onClick={handleSelectionOne}
             />

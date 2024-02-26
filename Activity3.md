@@ -10,13 +10,13 @@
 <!-- Part 1 -->
 ## Part 1: Basic Angular Components, Events, Routes, and Data Binding
 ### Screenshots
-![Large Screen]()
+![Large Screen](https://github.com/ScribeEzra/CST-391/blob/main/Media/Activity%203/01.png)
 > Large Responsive Screen
 
-![Small Screen]()
+![Small Screen](https://github.com/ScribeEzra/CST-391/blob/main/Media/Activity%203/02.png)
 > Small Responsive Screen
 
-![Error]()
+![Error](https://github.com/ScribeEzra/CST-391/blob/main/Media/Activity%203/03.png)
 > An Error occurred that kept me from completing the project. 
 
 > I kept trying to fix it but couldn't figure out a way around this error.
@@ -38,7 +38,7 @@
 <!-- Part 2 -->
 ## Part 2: Creating a Music Application � The Front End
 ### Screenshots
-![Error]()
+![Error](https://github.com/ScribeEzra/CST-391/blob/main/Media/Activity%203/04.png)
 > I was unable to get past an error on the musicapp project > as well and finally decided to just cut my losses and move > on to the next activity and milestone
 
 ### Research
